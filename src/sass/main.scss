@@ -25,3 +25,62 @@
     background-size: cover;
     background-position: center;
   }
+
+  body {
+    background-color: bisque;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  .search-form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .search-btn {
+    background-color:chocolate;
+  }
+
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .stats {
+    display: flex;
+  }
+
+  .stats-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-card {
+    height: 200px;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    margin: 0 auto;
+    background-color:chocolate;
+    width: 100px;
+    height: 30px;
+  }
