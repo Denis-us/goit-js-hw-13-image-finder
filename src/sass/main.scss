@@ -28,10 +28,16 @@
 
   body {
     background-color: bisque;
+    max-width: 13000px;
   }
 
   input {
     height: 30px;
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
   }
 
   .search-form {
@@ -52,6 +58,8 @@
 
   .stats {
     display: flex;
+    justify-content: space-around;
+    width: 300px;
   }
 
   .stats-item {
